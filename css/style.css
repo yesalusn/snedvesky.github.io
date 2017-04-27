@@ -11,7 +11,7 @@ body #page {
 	width: auto;
 	z-index: 3;
 	background-attachment: scroll;
-	background-color: #000000;
+	background-color: #999999;
 	background-image: url(http://www.upontheroofllc.com/wp-content/uploads/2017/01/Elegant-Designing-A-Pantry-84-About-Remodel-Home-Decorating-Ideas-with-Designing-A-Pantry.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -21,7 +21,8 @@ a {
 	outline: none;
 }
 a:active {
-	background: none;
+	background-color: #000;
+	background-image: none;
 }
 img {
 	border: none;
@@ -90,11 +91,11 @@ img {
 	width: auto;
 }
 #header div ul li a:hover {
-	background-color: #620031;
-	color: #ffffff;
+	background-color: #006600;
+	color: #FFFFFF;
 }
 #header div ul li.selected a {
-	background-color: #000000;
+	background-color: #FFFFFF;
 	color: #a3a3a3;
 }
 #header div ul li.menu {
@@ -149,20 +150,21 @@ img {
 }
 /*----------------------------------------body-home-styles---------------------------------------*/
 #body {
-	background-color: #000000;
+	background-color: #FFFFFF;
 	margin: 0;
 	min-height: 808px;
 	overflow: hidden;
 	padding: 0;
 	width: 100%;
+	color: #FFF;
 }
 #body.home {
-	background: none;
 	margin: 0;
 	min-height: 1308px;
 	overflow: hidden;
 	padding: 0;
 	width: 100%;
+	background-image: url(../images/pantrybg.jpeg);
 }
 #body.home .header {
 	background: none;
@@ -299,7 +301,7 @@ img {
 	opacity: 0.7;
 }
 #body.home .body {
-	background-color: #069A9E;
+	background-color: #FF0000;
 	margin: 0;
 	min-height: 168px;
 	overflow: hidden;
@@ -1314,7 +1316,7 @@ img {
 	width: auto;
 }
 #footer .connect {
-	background-color: #a3a3a3;
+	background-color: #FF0000;
 	margin: 0;
 	min-height: 84px;
 	overflow: hidden;
@@ -1335,10 +1337,13 @@ img {
 	font-weight: normal;
 	line-height: 23px;
 	margin: 0;
-	padding: 8px 25px 0 0;
 	text-align: right;
 	text-transform: uppercase;
-	width: 525px;
+	width: 630px;
+	padding-top: 8px;
+	padding-right: 25px;
+	padding-bottom: 0;
+	padding-left: 150;
 }
 #footer .connect div div {
 	float: left;
