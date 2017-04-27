@@ -12,7 +12,6 @@ body #page {
 	z-index: 3;
 	background-attachment: scroll;
 	background-color: #999999;
-	background-image: url(http://www.upontheroofllc.com/wp-content/uploads/2017/01/Elegant-Designing-A-Pantry-84-About-Remodel-Home-Decorating-Ideas-with-Designing-A-Pantry.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -35,17 +34,17 @@ img {
 }
 /*----------------------------------------header-styles---------------------------------------*/
 #header {
-	background: url(http://www.upontheroofllc.com/wp-content/uploads/2017/01/Elegant-Designing-A-Pantry-84-About-Remodel-Home-Decorating-Ideas-with-Designing-A-Pantry.jpg) repeat;
 	margin: 0;
 	min-height: 60px;
 	padding: 0;
 	width: auto;
+	background-color: #FFF;
+	background-repeat: repeat;
 }
 #header div {
 	margin: 0 auto;
 	max-width: 940px;
 	min-height: 60px;
-	padding: 0 10px;
 }
 #header div a.logo {
 	display: block;
@@ -76,7 +75,7 @@ img {
 	width: auto;
 }
 #header div ul li a {
-	color: #ffffff;
+	color: #FFFFFF;
 	display: block;
 	font-family: Arial;
 	font-size: 18px;
@@ -85,7 +84,7 @@ img {
 	margin: 0;
 	min-height: 60px;
 	padding: 0 24px;
- *padding: 0 23px; /* Needed for IE8 and old versions */
+ 	*padding: 0 23px; /* Needed for IE8 and old versions */
 	text-align: center;
 	text-transform: uppercase;
 	width: auto;
@@ -96,7 +95,7 @@ img {
 }
 #header div ul li.selected a {
 	background-color: #FFFFFF;
-	color: #a3a3a3;
+	color: #666666;
 }
 #header div ul li.menu {
 	position: relative;
@@ -301,7 +300,7 @@ img {
 	opacity: 0.7;
 }
 #body.home .body {
-	background-color: #FF0000;
+	background-color: #333333;
 	margin: 0;
 	min-height: 168px;
 	overflow: hidden;
@@ -1099,7 +1098,7 @@ img {
 	width: auto;
 }
 #body .header div .sidebar ul li span {
-	color: #ffffff;
+	color: #333333;
 	display: block;
 	font-family: Arial;
 	font-size: 14px;
@@ -1150,7 +1149,7 @@ img {
 	opacity: 0.7;
 }
 #body .header div .sidebar ul li ul li h2 {
-	color: #A3A3A3;
+	color: #666666;
 	float: left;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
