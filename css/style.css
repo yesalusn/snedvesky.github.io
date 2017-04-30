@@ -27,11 +27,7 @@ img {
 	border: none;
 }
 /*-------------------------------------------FONTS---------------------------------------------*/
-@font-face {
-	font-family: 'audiowide-regular-webfont';
-	src: url('../fonts/audiowide-regular-webfont.eot');
-	src: url('../fonts/audiowide-regular-webfont.woff') format('woff'), url('../fonts/audiowide-regular-webfont.ttf') format('truetype'), url('../fonts/audiowide-regular-webfont.svg') format('svg');
-}
+
 /*----------------------------------------header-styles---------------------------------------*/
 #header {
 	margin: 0;
@@ -75,7 +71,7 @@ img {
 	width: auto;
 }
 #header div ul li a {
-	color: #FFFFFF;
+	color: #666666;
 	display: block;
 	font-family: Arial;
 	font-size: 18px;
@@ -91,7 +87,7 @@ img {
 }
 #header div ul li a:hover {
 	background-color: #006600;
-	color: #FFFFFF;
+	color: #666666;
 }
 #header div ul li.selected a {
 	background-color: #FFFFFF;
@@ -129,7 +125,7 @@ img {
 	width: auto;
 }
 #header div ul li.menu ul li a {
-	background-color: #620031;
+	background-color: #FF0000;
 	color: #ffffff;
 	display: block;
 	font-family: Arial;
@@ -244,7 +240,7 @@ img {
 	color: #ffffff;
 }
 #body.home .header div h3 {
-	background: url("../images/bg-transparent1.png") repeat;
+	background: url("../images/pantrybg.jpeg") repeat;
 	color: #A3A3A3;
 	float: left;
 	font-family: audiowide-regular-webfont;
@@ -589,7 +585,7 @@ img {
 	color: #a3a3a3;
 }
 #body.about .body {
-	background-color: #003333;
+	background-color: #FF0000;
 	margin: 0;
 	min-height: 253px;
 	overflow: hidden;
@@ -1315,7 +1311,8 @@ img {
 	width: auto;
 }
 #footer .connect {
-	background-color: #FF0000;
+	background-color: #FFFFFF;
+	background-image:url(images/wood.jpg);
 	margin: 0;
 	min-height: 84px;
 	overflow: hidden;
@@ -1329,7 +1326,8 @@ img {
 	padding: 24px 0 0;
 }
 #footer .connect div h1 {
-	color: #FFFFFF;
+	color: #FF0000;
+	background-image: url(images/wood.jpg);
 	float: left;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
@@ -1352,7 +1350,7 @@ img {
 	width: 380px;
 }
 #footer .connect div div a {
-	background: url(../images/icons.png) no-repeat;
+	background-image:url(images/wood.jpg);
 	display: block;
 	float: left;
 	height: 36px;
