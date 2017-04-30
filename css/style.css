@@ -514,7 +514,7 @@ img {
 	width: 120px;
 }
 #body.home .footer div ul li ul li a.more:hover {
-	background-color: #620031;
+	background-color: #006600;
 }
 /*----------------------------------------body-styles---------------------------------------*/
 #body.about .header {
@@ -523,7 +523,7 @@ img {
 	padding: 0;
 	width: 100%;
 	background-color: #000000;
-	background-image: url(../images/bg-home.jpg);
+	background-image: url(../images/pantrybg.jpeg);
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -585,7 +585,7 @@ img {
 	color: #a3a3a3;
 }
 #body.about .body {
-	background-color: #FF0000;
+	background-color: #6699CC;
 	margin: 0;
 	min-height: 253px;
 	overflow: hidden;
