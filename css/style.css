@@ -151,7 +151,7 @@ img {
 	overflow: hidden;
 	padding: 0;
 	width: 100%;
-	color: #FFF;
+	color: #000;
 }
 #body.home {
 	margin: 0;
@@ -159,7 +159,7 @@ img {
 	overflow: hidden;
 	padding: 0;
 	width: 100%;
-	background-image: url(../images/pantrybg.jpeg);
+	background-image: url(../images/aboutback.jpg);
 }
 #body.home .header {
 	background: none;
@@ -209,13 +209,19 @@ img {
 	font-size: 43px;
 	font-weight: normal;
 	line-height: 43px;
-	margin: 0 0 36px;
-	padding: 0 146px 0 506px;
 	position: relative;
 	text-align: right;
 	text-transform: uppercase;
 	width: 288px;
 	z-index: 60;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 36px;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 26px;
+	padding-bottom: 0;
+	padding-left: 506px;
 }
 #body.home .header div a.more {
 	background-color: #000000;
@@ -523,7 +529,7 @@ img {
 	padding: 0;
 	width: 100%;
 	background-color: #000000;
-	background-image: url(../images/pantrybg.jpeg);
+	background-image: url(../images/aboutback.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -585,7 +591,7 @@ img {
 	color: #a3a3a3;
 }
 #body.about .body {
-	background-color: #6699CC;
+	background-color: #FFFFFF;
 	margin: 0;
 	min-height: 253px;
 	overflow: hidden;
@@ -612,7 +618,7 @@ img {
 	width: 620px;
 }
 #body.about .body div p {
-	color: #ffffff;
+	color: #333333;
 	display: block;
 	float: left;
 	font-family: Arial;
