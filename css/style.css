@@ -3,6 +3,8 @@ body {
 	padding: 0;
 	position: relative;
 	width: auto;
+	color: #000;
+	text-align: center;
 }
 body #page {
 	margin: 0;
