@@ -1334,7 +1334,7 @@ img {
 #footer .connect div {
 	margin: 0 auto;
 	max-width: 960px;
-	overflow: hidden;
+	overflow: auto;
 	padding: 24px 0 0;
 }
 #footer .connect div h1 {
