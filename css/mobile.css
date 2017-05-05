@@ -212,10 +212,13 @@
 		width: 100%;
 	}
 	#header div {
-		margin: 0 auto;
-		max-width: none;
-		min-height: 105px;
-		width: 95%;
+	max-width: none;
+	min-height: 105px;
+	width: 100%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
 	}
 	#header div a.logo {
 		display: block;
